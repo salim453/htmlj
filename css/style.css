@@ -1,0 +1,112 @@
+/*****************
+***********comments here*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{ height: 1500px;
+	background: #21381E;
+	font-family: font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Montserrat', sans-serif;
+	}
+	a, a:hover{
+		text-decoration: none;
+	}
+	.sobai{
+	font-size: 25px;
+	color: red;
+	text-align: center;
+	background: #9DB09A;
+	margin: 20px 40px auto;
+	padding: 20px;
+
+		
+
+	}
+
+	.green{
+		width: 500px;
+		height: 300px;
+		position: absolute;
+		background: green;
+		margin: 150px 350px;
+	}
+	.red{
+		width: 160px;
+		height: 160px;
+		position: absolute;
+		background: red;
+		border-radius: 50%;
+		top: 70px;
+		right: 180px;
+	}
+ 	.ava65{
+ 		width: 100px;
+ 		position: fixed;
+ 		top: 50%;
+ 		right: -5.7%;
+ 		transform: translate(-50,-50);
+ 		transition: 1s;
+ 	}
+
+.ava65:hover{
+	right: 0px;
+}
+.google{
+		width: 100px;
+ 		position: fixed;
+ 		top: 55%;
+ 		right: -5.9%;
+ 		transform: translate(-50,-50);
+ 		transition: 1s;
+}
+.google:hover{
+	right: 0px;
+}
+.youtube{
+		width: 89px;
+ 		position: fixed;
+ 		top: 59.7%;
+ 		right: -5.3%;
+ 		transform: translate(-50,-50);
+ 		transition: 1s;
+}
+.youtube:hover{
+	right: 0px;
+}
+.social-icons{
+	display: 50px;
+	width: 100%;
+	text-align: right;
+	margin: 70px 0px;
+}
+.social-icons li{
+	list-style: none;
+display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	margin: 0px 10px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+	background: #E107FF;
+	color: #FFFFFF;
+	border-radius: 50%;
+	transition: 1s;
+}
+.social-icons li a:hover{
+	right: 0px;
+	background: #07CEFF;
+	border-radius: 50%;
+}
+.social-icons li a i{
+
+}
